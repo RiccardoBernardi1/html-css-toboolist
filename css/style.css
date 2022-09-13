@@ -22,4 +22,34 @@ header{
     background-color: white;
     margin-bottom: 40px;
 }
-
+/* main */
+.container{
+    margin: auto;
+    max-width: 800px;
+    background-color: white;
+    width: 600px;
+    height: 800px;
+    border-radius: 4px;
+}
+button{
+    border: none;
+    height: 30px;
+    width: 80px;
+    background-color:#45ABEA;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 15px 5px 10px 50px;
+    color: white;
+}
+input{
+    height: 30px;
+    width: 120px;
+    border-radius: 5px;
+    background-color: white;
+    border: 1px solid grey;
+}
+hr{
+    background-color: #F6F8F9;
+    border: grey;
+    height: 2px;
+}
