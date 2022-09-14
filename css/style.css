@@ -31,28 +31,32 @@ header{
     height: 800px;
     border-radius: 4px;
 }
+/* bottoni */
+.bottoni{
+    padding: 15px 30px;
+    border-bottom: 2px solid #F6F8F9;
+}
 button{
     border: none;
-    height: 30px;
+    height: 30px;      
+    border-radius: 5px;  
+    padding: 8px 10px;
+    cursor: pointer;
+    font-family: inherit;
+}
+.btn-primary{
+    background-color:#47adf1;
     width: 80px;
-    background-color:#45ABEA;
-    padding: 5px;
-    border-radius: 5px;
-    margin: 15px 5px 10px 50px;
     color: white;
+    vertical-align: middle;
 }
-input{
-    height: 30px;
-    width: 120px;
-    border-radius: 5px;
-    background-color: white;
+.btn-secondary{
+    width: 100px;
     border: 1px solid grey;
+    background-color: transparent; 
+    vertical-align: middle;  
 }
-hr{
-    background-color: #F6F8F9;
-    border: grey;
-    height: 2px;
-}
+
 /* sezioni */
 .sezioni{
     margin: 40px;    
@@ -66,16 +70,18 @@ hr{
     display: inline-block;
     color: green;
     vertical-align: middle;
+    line-height: 20px;
 }
 .cross{
     border-color: red;
     color: red;
 }
-h3{
-    display: inline-block;
+span{  
+    color: #444851;  
     vertical-align: middle;
 }
 .tag{
+    font-weight: 300;
     padding: 5px;
     background-color: #45ABEA;
     border-radius: 10px;
